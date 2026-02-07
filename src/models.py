@@ -97,3 +97,5 @@ class Location (db.Model):
             "town": self.town,
             "use": self.use,
         }
+
+###NOTA: migrate y upgrade solamente hacemos cuando modificamos models 
